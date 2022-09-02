@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f98ca95486c04405a5ebe529dc2f7691" Name="Diagram1">
+        <EntityTypeShape EntityType="QUANLIbanTRASUAModel.CT_HoaDon" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLIbanTRASUAModel.CT_PhieuNhap" Width="1.5" PointX="6.5" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLIbanTRASUAModel.HoaDon" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLIbanTRASUAModel.LoaiThucUong" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLIbanTRASUAModel.NguyenLieu" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLIbanTRASUAModel.NhanVien" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLIbanTRASUAModel.PhieuNhap" Width="1.5" PointX="4.625" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLIbanTRASUAModel.sysdiagram" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLIbanTRASUAModel.ThucUong" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="QUANLIbanTRASUAModel.FK_CT_HoaDon_HoaDon" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLIbanTRASUAModel.FK_CT_HoaDon_ThucUong" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLIbanTRASUAModel.FK_CT_PhieuNhap_NguyenLieu" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLIbanTRASUAModel.FK_CT_PhieuNhap_PhieuNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLIbanTRASUAModel.FK_HoaDon_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLIbanTRASUAModel.FK_ThucUong_LoaiThucUong" ManuallyRouted="false" />
+        <AssociationConnector Association="QUANLIbanTRASUAModel.FK_PhieuNhap_NhanVien" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
